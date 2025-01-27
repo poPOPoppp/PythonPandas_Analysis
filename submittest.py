@@ -90,7 +90,7 @@ plt.ylabel('Number of Commits')
 #plt.savefig('C://Users\ZHAOYAN\Desktop\Hourly Commit Distribution.png')
 plt.show()
 
-# 每日提交数图
+# 每日提交数图  
 plt.figure(figsize=(12, 6))
 sns.lineplot(x=daily_commits.index, y=daily_commits.values)
 plt.title('Daily Commit Count')
